@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FiMenu, FiBell, FiMessageSquare } from 'react-icons/fi';
 import { FiUser, FiSettings, FiLogOut } from "react-icons/fi";
+import img from "../../public/portfolio.png"
 
 
 function Header() {
@@ -70,7 +71,7 @@ function Header() {
               {[1, 2, 3, 4].map((_, index) => (
                 <div key={index} className="flex items-start justify-between gap-2 py-2 border-b last:border-none">
                   <img
-                    src="https://i.pravatar.cc/30"
+                    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fG1hbnxlbnwwfHwwfHx8MA%3D%3D"
                     alt="user"
                     className="rounded-full w-8 h-8"
                   />
@@ -160,7 +161,7 @@ function Header() {
 
           <div className="flex items-start gap-3 py-3 border-b">
             <img
-              src="https://i.pravatar.cc/30"
+              src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG1hbnxlbnwwfHwwfHx8MA%3D%3D"
               alt="user"
               className="rounded-full w-8 h-8"
             />
@@ -200,12 +201,12 @@ function Header() {
         onClick={() => setShowProfileMenu(!showProfileMenu)}
       >
         <img
-          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1lbnxlbnwwfHwwfHx8MA%3D%3D"
+          src={img}
           alt="profile"
           className="w-8 h-8 rounded-full"
         />
         <div className=" text-sm">
-          <div className="font-semibold">Mohd Saleem</div>
+          <div className="font-semibold">Arun Yadav</div>
           <div className="text-gray-500">Admin</div>
         </div>
       </div>

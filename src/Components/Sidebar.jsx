@@ -37,7 +37,7 @@ function Sidebar() {
 
     
       <div className="flex-1 h-full flex items-center justify-start px-2">
-        <div className="text-[11px] text-black font-bold leading-[13px] text-center">
+        <div className="text-[16px] text-black font-bold leading-[19px] text-center">
           <div>ADAM</div>
           <div>EXPORTS</div>
         </div>
